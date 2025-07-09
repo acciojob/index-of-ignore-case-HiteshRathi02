@@ -1,5 +1,5 @@
-function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+function indexOfIgnoreCase(str, substr){
+return str.toLowerCase().indexOf(substr.toLowerCase());
 }
 
 // Please do not change the code below
